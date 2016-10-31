@@ -18,6 +18,7 @@
       "react-dom": "npm:react-dom@^15.3.2"
     },
     "devDependencies": {
+      "babel-plugin-transform-react-jsx": "npm:babel-plugin-transform-react-jsx@^6.8.0",
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.17"
     },
     "peerDependencies": {
@@ -56,6 +57,12 @@
         "ignore": [
           "test.js"
         ]
+      },
+      "npm:lodash@4.16.4": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
       }
     }
   }
