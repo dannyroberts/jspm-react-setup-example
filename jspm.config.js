@@ -49,7 +49,10 @@ SystemJS.config({
       "main": "es6-demo.js",
       "meta": {
         "*.js": {
-          "loader": "plugin-babel"
+          "loader": "plugin-babel",
+          "babelOptions": {
+            "plugins": ["babel-plugin-transform-react-jsx"],
+          }
         }
       }
     }
